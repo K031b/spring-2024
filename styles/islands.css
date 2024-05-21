@@ -1,0 +1,133 @@
+:root {
+    --green:#074817;
+    --white:#ffffff;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    
+   
+/* fix picture and list */
+}
+body, header, main , footer, section , article , aside  {
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-size: 16px;
+
+}
+/* fix picture and list */
+main, header, nav ul, footer {
+    display:grid;
+    grid-template-columns: auto auto auto;
+    background-color: rgb(255, 255, 255);
+
+}
+/* fix picture and list */
+ main section {
+    border: solid whitesmoke 1px;
+    text-align: center;
+    padding:20px;
+}
+/* the following classes will govern these sections and make them work within the grid */
+
+.item1, .item8 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+.item6 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    width: 30%; 
+.pics6 {
+    background-image: url(../images/sj-011.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 200px;
+ }   
+}
+.pic2 {
+    background-image: url(../images/sj-030.jpg);
+
+}
+
+.pic4 {
+    background-image: url(../images/sj-011.jpg);
+}
+.item7 {
+    grid-column-start: 2;
+    grid-column-end: 4;
+
+}
+
+
+.item8, .item9, .item10, hero-orcas {
+ grid-column-start: 1;
+ grid-column-end: 4;
+}
+/* styling elements */
+
+header {
+    background-color: var(--white);
+    text-align: center;
+
+}
+/* fix picture and list */
+header a, header p, nav a {
+    color: rgb(157, 161, 165);
+    text-decoration: none;
+}
+/* fix picture and list */
+.hero-orcas, main section {
+   background-image: url(../images/sj-034.jpg);
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+   height: 200px;
+
+}
+
+h1 {
+    color: var(--white) ;
+    text-transform: uppercase;
+    text-shadow: #074817 3px 3px 3px;
+}
+
+
+nav ul li {
+    list-style-type: none;
+    text-align: center;
+    height: 100px;
+    
+
+}
+
+nav ul li:hover {
+    background-color: rgb(186, 180, 180);
+    color: var(--white);
+}
+main section {
+    height: 350px;
+}
+
+.item1 {
+    background-image: url(../images/sj-015.jpg);
+
+}
+
+.item3 {
+    background-image: url(../images/sj-025.jpg);
+
+}
+
+.item5 {
+    background-image: url(../images/sj-068.jpg);
+
+}
+
+.item7 {
+    background-image: url(../images/sj-022.jpg);
+}
+
+.item8, .item9, .item10 {
+    background-image: none;
+}
