@@ -4,11 +4,8 @@
     display: flex;
 }
 
-oly-wrap,
-.oly-row {
-    display: flex; 
 
-}
+
 header,
 .oly-column {
     flex: 1;

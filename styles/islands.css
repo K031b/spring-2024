@@ -87,7 +87,7 @@ header a, header p, nav a {
 }
 
 h1 {
-    color: var(--white) ;
+    /*color: var(--white) ;*/
     text-transform: uppercase;
     text-shadow: #074817 3px 3px 3px;
 }
